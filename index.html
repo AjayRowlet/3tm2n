@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin Genius: AI-Powered Waste Segregation</title>
-    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -35,7 +35,7 @@
 </head>
 <body>
 
-    <!-- Header & Navigation --><header class="text-white hero-bg shadow-xl">
+    <header class="text-white hero-bg shadow-xl">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="text-3xl font-extrabold tracking-tight logo-text">
                 Bin Genius
@@ -43,20 +43,20 @@
             <div class="space-x-4 hidden md:flex">
                 <a href="#problem" class="hover:text-teal-200 transition duration-300">The Challenge</a>
                 <a href="#solution" class="hover:text-teal-200 transition duration-300">The AI Core</a>
-                <a href="#tech" class="hover:text-teal-200 transition duration-300">Data & Hardware</a>
+                <a href="#howitworks" class="hover:text-teal-200 transition duration-300">Live Demo</a> <a href="#tech" class="hover:text-teal-200 transition duration-300">Data & Hardware</a>
                 <a href="#team" class="hover:text-teal-200 transition duration-300">Contact</a>
             </div>
         </nav>
     </header>
 
-    <!-- Hero Section (UPDATED FOR IMAGE) --><section id="hero" class="hero-bg text-white py-20 md:py-32">
+    <section id="hero" class="hero-bg text-white py-20 md:py-32">
         <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-12">
             
-            <!-- Left Column: Text Content --><div class="lg:w-1/2 text-left">
+            <div class="lg:w-1/2 text-left">
                 <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight mb-4">
                     Smart Waste Segregation. Powered by Vision.
                 </h1>
-                <!-- Logo with Tagline --><div class="mb-8">
+                <div class="mb-8">
                     <p class="text-5xl md:text-7xl font-extrabold logo-text text-white">Bin Genius</p>
                     <p class="text-lg md:text-xl font-light opacity-90 italic mt-2">Intelligence for a Cleaner Tomorrow</p>
                 </div>
@@ -64,45 +64,46 @@
                 <p class="text-xl sm:text-2xl font-light mb-8 opacity-90 max-w-4xl">
                     Bin Genius uses **Computer Vision (YOLO)** and edge computing to automatically sort waste into Biodegradable and Non-Biodegradable streams at the source, ensuring zero contamination.
                 </p>
-                <a href="#cta" class="inline-block bg-white text-green-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-2xl transition duration-300 transform hover:scale-105">
-                    Ready to Deploy
+                <a href="#howitworks" class="inline-block bg-white text-green-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-2xl transition duration-300 transform hover:scale-105">
+                    See It Work
                 </a>
                 <div class="mt-12 text-sm opacity-80">
                     A simple change for a cleaner planet.
                 </div>
 
-                <!-- App Icons in Hero Section (UPDATED) --><div class="mt-8 flex items-center space-x-6">
+                <div class="mt-8 flex items-center space-x-6">
                     <p class="text-lg font-semibold">Soon available on:</p>
                     <div class="flex space-x-6"> 
-                        <!-- Android Icon (Placeholder for your PNG) --><img src="cd.png" alt="Android App Store" class="w-16 h-16 rounded-xl shadow-2xl transition duration-300 transform hover:scale-110">
-                        <!-- iOS Icon (Placeholder for your PNG) --><img src="kq.png" alt="iOS App Store" class="w-16 h-16 rounded-xl shadow-2xl transition duration-300 transform hover:scale-110">
+                        <img src="cd.png" alt="Android App Store" class="w-16 h-16 rounded-xl shadow-2xl transition duration-300 transform hover:scale-110">
+                        <img src="kq.png" alt="iOS App Store" class="w-16 h-16 rounded-xl shadow-2xl transition duration-300 transform hover:scale-110">
                     </div>
                 </div>
             </div>
             
-            <!-- Right Column: Image as requested --><div class="lg:w-1/2 flex justify-center pt-10 lg:pt-0 relative">
+            <div class="lg:w-1/2 flex justify-center pt-10 lg:pt-0 relative">
                 <img src="sp.png" alt="Bin Genius Mobile App Mockup" class="max-w-full h-auto w-auto max-h-[1000px] shadow-3xl rounded-4xl object-contain">
-                 </p>
+                 
             </div>
             
         </div>
     </section>
 
-    <!-- Problem Section --><section id="problem" class="py-16 md:py-24 bg-white">
+
+    <section id="problem" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-6 max-w-5xl">
             <h2 class="text-3xl font-bold section-header text-center mb-12">The Cost of Manual Sorting</h2>
             <div class="grid md:grid-cols-3 gap-8 text-center">
-                <!-- Card 1: Contamination --><div class="bg-red-50 p-8 rounded-xl shadow-xl dynamic-card">
+                <div class="bg-red-50 p-8 rounded-xl shadow-xl dynamic-card">
                     <div class="text-5xl mb-4 text-red-600" role="img" aria-label="Contamination Icon">❌</div>
                     <h3 class="font-bold text-xl mb-3 text-gray-800">High Contamination</h3>
                     <p class="text-gray-600">Manual error causes up to 25% of recycling batches to be rejected, leading to wasted resources and increased costs.</p>
                 </div>
-                <!-- Card 2: Guesswork --><div class="bg-red-50 p-8 rounded-xl shadow-xl dynamic-card">
+                <div class="bg-red-50 p-8 rounded-xl shadow-xl dynamic-card">
                     <div class="text-5xl mb-4 text-red-600" role="img" aria-label="Guessing Icon">⛽</div>
                     <h3 class="font-bold text-xl mb-3 text-gray-800">Inefficient Collection</h3>
                     <p class="text-gray-600">Collecting bins blindly wastes fuel and labor resources on containers that are only partially full.</p>
                 </div>
-                <!-- Card 3: Data Loss --><div class="bg-red-50 p-8 rounded-xl shadow-xl dynamic-card">
+                <div class="bg-red-50 p-8 rounded-xl shadow-xl dynamic-card">
                     <div class="text-5xl mb-4 text-red-600" role="img" aria-label="Data Icon">📉</div>
                     <h3 class="font-bold text-xl mb-3 text-gray-800">Zero Auditable Data</h3>
                     <p class="text-gray-600">Organizations cannot measure waste streams effectively, stalling progress toward critical ESG compliance goals.</p>
@@ -111,12 +112,12 @@
         </div>
     </section>
 
-    <!-- Solution Section (The AI Core - Benefits Driven) --><section id="solution" class="py-16 md:py-24 bg-gray-50">
+    <section id="solution" class="py-16 md:py-24 bg-gray-50">
         <div class="container mx-auto px-6 max-w-5xl">
             <h2 class="text-4xl font-bold section-header text-center mb-16">Bin Genius: The AI Core Advantage</h2>
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 
-                <!-- Left Column: Benefits Card (Replaced steps 3-5) --><div class="lg:w-1/2 p-8 bg-white rounded-2xl shadow-2xl border-l-4 border-green-600 dynamic-card">
+                <div class="lg:w-1/2 p-8 bg-white rounded-2xl shadow-2xl border-l-4 border-green-600 dynamic-card">
                     <h3 class="text-3xl font-extrabold text-gray-800 mb-4">Autonomous Sorting Intelligence</h3>
                     <p class="text-gray-700 text-lg mb-6">
                         Our core innovation, powered by **YOLO Object Detection**, is trained on thousands of complex, real-world waste images (crumpled, wet, dirty). This deep learning ensures:
@@ -143,11 +144,11 @@
                     </ul>
                 </div>
                 
-                <!-- Right Column: Visual Mockup (Enhanced Placeholder) --><div class="lg:w-1/2 mt-8 lg:mt-0 relative">
+                <div class="lg:w-1/2 mt-8 lg:mt-0 relative">
                     <div class="bg-gray-200 p-8 rounded-2xl shadow-2xl border-b-4 border-teal-500 overflow-hidden">
                         <h3 class="text-xl font-semibold text-gray-800 mb-4 text-center">AI Vision in Action (YOLO Detection)</h3>
                         <div class="mt-4 text-center">
-                            <!-- Placeholder image URL updated for a better visual --><img src="https://placehold.co/500x300/34d399/ffffff?text=Biodegradable+%5B98%25%5D+Detected" alt="AI Vision Demonstration showing bounding box" class="mx-auto rounded-lg shadow-xl border-2 border-green-600">
+                            <img src="https://placehold.co/500x300/34d399/ffffff?text=Biodegradable+%5B98%25%5D+Detected" alt="AI Vision Demonstration showing bounding box" class="mx-auto rounded-lg shadow-xl border-2 border-green-600">
                         </div>
                         <p class="text-sm text-gray-600 text-center mt-4">The system locates and identifies the waste object in real-time, even when partially obscured.</p>
                     </div>
@@ -156,12 +157,30 @@
         </div>
     </section>
 
-    <!-- Hardware & IoT Section --><section id="tech" class="py-16 md:py-24 bg-white">
+    <section id="howitworks" class="py-16 md:py-24 bg-teal-50">
+        <div class="container mx-auto px-6 max-w-5xl text-center">
+            <h2 class="text-4xl font-bold section-header mb-12">See Bin Genius Computer Vision Prototype</h2>
+            <p class="text-xl text-gray-700 mb-10 max-w-3xl mx-auto">
+                Witness the power of **Edge AI** as it instantly recognizes and sorts waste in our live, browser-based demonstration. No latency, just smart recycling.
+            </p>
+
+            <div class="p-8 bg-white rounded-2xl shadow-2xl border-b-4 border-green-500 dynamic-card flex flex-col items-center">
+               
+                
+                <a href="https://ajayrowlet.github.io/3tm2model/" target="_blank" class="inline-block bg-green-600 text-white hover:bg-green-700 font-extrabold text-xl py-4 px-10 rounded-full shadow-lg transition duration-300 transform hover:scale-105 uppercase tracking-wider">
+                    Check Out the Live AI Demo <span class="ml-2">➡️</span>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-6 max-w-5xl">
             <h2 class="text-4xl font-bold section-header text-center mb-12">System Overview: The Complete Data Loop</h2>
             <div class="flex flex-col lg:flex-row items-start gap-12">
                 
-                <!-- Component List --><div class="lg:w-1/2 space-y-6 p-6 bg-blue-50 rounded-xl shadow-xl dynamic-card">
+                <div class="lg:w-1/2 space-y-6 p-6 bg-blue-50 rounded-xl shadow-xl dynamic-card">
                     <h3 class="text-2xl font-semibold text-gray-800 border-b pb-3 mb-4">Core Components for IoT & Sorting</h3>
                     <ul class="space-y-4 text-gray-700">
                         <li class="flex items-center space-x-3">
@@ -183,7 +202,7 @@
                     </ul>
                 </div>
                 
-                <!-- Value Proposition --><div class="lg:w-1/2 mt-10 lg:mt-0 p-6 bg-green-50 rounded-xl shadow-xl dynamic-card">
+                <div class="lg:w-1/2 mt-10 lg:mt-0 p-6 bg-green-50 rounded-xl shadow-xl dynamic-card">
                     <h3 class="text-2xl font-semibold text-green-700 mb-4 border-b border-green-300 pb-2">The Data Advantage (IoT)</h3>
                     <p class="text-gray-700 mb-4">The integrated sensors and Pi enable powerful, real-time metrics for efficient operations:</p>
                     <ul class="list-disc list-inside space-y-2 text-gray-700 font-medium">
@@ -195,110 +214,109 @@
             </div>
         </div>
     </section>
-        <!-- Meet the Genius Team Section --><section id="team" class="py-16 md:py-24 bg-gray-50">
-      <div class="container mx-auto px-6 text-center">
-        <h2 class="text-4xl font-extrabold text-green-800 mb-10 flex justify-center items-center gap-2">
-          Meet the Genius Team 💡
-        </h2>
 
-        <!-- Carousel Wrapper --><div class="relative max-w-5xl mx-auto">
-          <!-- Slides --><div id="team-carousel" class="flex transition-transform duration-500 ease-in-out">
-            <!-- Member 1 --><div class="min-w-full flex flex-col items-center space-y-4">
-              <img src="dio.png" class="w-36 h-36 rounded-full shadow-lg border-4 border-green-400">
-              <h3 class="text-2xl font-bold text-gray-800">Ajay</h3>
-              <p class="text-gray-600 max-w-sm">Focus: YOLO Model Training & Edge Deployment on Raspberry Pi</p>
-              <div class="flex space-x-6">
-                <a href="https://www.linkedin.com/in/sanjeevanajay" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
-                <a href="https://github.com/AjayRowlet" class="text-gray-700 hover:text-black font-semibold">GitHub</a>
-              </div>
+    <section id="team" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold text-green-800 mb-10 flex justify-center items-center gap-2">
+                Meet the Genius Team 💡
+            </h2>
+
+            <div class="relative max-w-5xl mx-auto">
+                <div id="team-carousel" class="flex transition-transform duration-500 ease-in-out">
+                    <div class="min-w-full flex flex-col items-center space-y-4">
+                        <img src="dio.png" class="w-36 h-36 rounded-full shadow-lg border-4 border-green-400">
+                        <h3 class="text-2xl font-bold text-gray-800">Ajay</h3>
+                        <p class="text-gray-600 max-w-sm">Focus: YOLO Model Training & Edge Deployment on Raspberry Pi</p>
+                        <div class="flex space-x-6">
+                            <a href="https://www.linkedin.com/in/sanjeevanajay" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
+                            <a href="https://github.com/AjayRowlet" class="text-gray-700 hover:text-black font-semibold">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="min-w-full flex flex-col items-center space-y-4">
+                        <img src="sw" class="w-36 h-36 rounded-full shadow-lg border-4 border-blue-400">
+                        <h3 class="text-2xl font-bold text-gray-800">Kenny (Team Lead)</h3>
+                        <p class="text-gray-600 max-w-sm">Focus: Sensor Integration, Servo Control & System Prototyping</p>
+                        <div class="flex space-x-6">
+                            <a href="https://www.linkedin.com/in/kenny-john-3b7203372/" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <div class="min-w-full flex flex-col items-center space-y-4">
+                        <img src="ge.jpeg" class="w-36 h-36 rounded-full shadow-lg border-4 border-yellow-400">
+                        <h3 class="text-2xl font-bold text-gray-800">Krithi Yaragarla</h3>
+                        <p class="text-gray-600 max-w-sm">Focus: Data Analytics, Route Optimization & ESG Reporting</p>
+                        <div class="flex space-x-6">
+                            <a href="https://www.linkedin.com/in/krithi-yaragarla-7b4624373/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <div class="min-w-full flex flex-col items-center space-y-4">
+                        <img src="mih" class="w-36 h-36 rounded-full shadow-lg border-4 border-orange-400">
+                        <h3 class="text-2xl font-bold text-gray-800">R.K.Prajanah</h3>
+                        <p class="text-gray-600 max-w-sm">Focus: Frontend Design, User Testing & Visual Storytelling</p>
+                        <div class="flex space-x-6">
+                            <a href="https://www.linkedin.com/in/r-k-prajnah-033b41316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <div class="min-w-full flex flex-col items-center space-y-4">
+                        <img src="ger" class="w-36 h-36 rounded-full shadow-lg border-4 border-purple-400">
+                        <h3 class="text-2xl font-bold text-gray-800">Prajana.R</h3>
+                        <p class="text-gray-600 max-w-sm">Focus: Data Preprocessing, Model Deployment & Hardware Sync</p>
+                        <div class="flex space-x-6">
+                            <a href="http://linkedin.com/in/prajana-r-343662381" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-green-600 text-white rounded-full w-12 h-12 hover:bg-green-700 shadow-lg text-2xl">&lt;</button>
+                <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-green-600 text-white rounded-full w-12 h-12 hover:bg-green-700 shadow-lg text-2xl">&gt;</button>
             </div>
 
-            <!-- Member 2 --><div class="min-w-full flex flex-col items-center space-y-4">
-              <img src="sw" class="w-36 h-36 rounded-full shadow-lg border-4 border-blue-400">
-              <h3 class="text-2xl font-bold text-gray-800">Kenny (Team Lead)</h3>
-              <p class="text-gray-600 max-w-sm">Focus: Sensor Integration, Servo Control & System Prototyping</p>
-              <div class="flex space-x-6">
-                <a href="https://www.linkedin.com/in/kenny-john-3b7203372/" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
-              </div>
-            </div>
+            <p class="mt-10 text-gray-500 text-sm">
+                For general inquiries, reach out to <a href="mailto:info@bingenius.com" class="text-green-600 hover:underline">info@bingenius.com</a>
+            </p>
+        </div>
 
-            <!-- Member 3 --><div class="min-w-full flex flex-col items-center space-y-4">
-              <img src="ge.jpeg" class="w-36 h-36 rounded-full shadow-lg border-4 border-yellow-400">
-              <h3 class="text-2xl font-bold text-gray-800">Krithi Yaragarla</h3>
-              <p class="text-gray-600 max-w-sm">Focus: Data Analytics, Route Optimization & ESG Reporting</p>
-              <div class="flex space-x-6">
-                <a href="https://www.linkedin.com/in/krithi-yaragarla-7b4624373/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
-              </div>
-            </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const carousel = document.getElementById('team-carousel');
+                const totalSlides = carousel.children.length;
+                let currentIndex = 0;
 
-            <!-- Member 4 --><div class="min-w-full flex flex-col items-center space-y-4">
-              <img src="mih" class="w-36 h-36 rounded-full shadow-lg border-4 border-orange-400">
-              <h3 class="text-2xl font-bold text-gray-800">R.K.Prajanah</h3>
-              <p class="text-gray-600 max-w-sm">Focus: Frontend Design, User Testing & Visual Storytelling</p>
-              <div class="flex space-x-6">
-                <a href="https://www.linkedin.com/in/r-k-prajnah-033b41316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
-              </div>
-            </div>
+                // Carousel Logic
+                document.getElementById('next').addEventListener('click', () => {
+                    currentIndex = (currentIndex + 1) % totalSlides;
+                    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                });
 
-            <!-- Member 5 --><div class="min-w-full flex flex-col items-center space-y-4">
-              <img src="ger" class="w-36 h-36 rounded-full shadow-lg border-4 border-purple-400">
-              <h3 class="text-2xl font-bold text-gray-800">Prajana.R</h3>
-              <p class="text-gray-600 max-w-sm">Focus: Data Preprocessing, Model Deployment & Hardware Sync</p>
-              <div class="flex space-x-6">
-                <a href="http://linkedin.com/in/prajana-r-343662381" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn</a>
-              </div>
-            </div>
-          </div>
+                document.getElementById('prev').addEventListener('click', () => {
+                    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+                    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                });
 
-        <!-- Carousel Controls --><button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-green-600 text-white rounded-full w-12 h-12 hover:bg-green-700 shadow-lg text-2xl">&lt;</button>
-        <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-green-600 text-white rounded-full w-12 h-12 hover:bg-green-700 shadow-lg text-2xl">&gt;</button>
-      </div>
-
-      <p class="mt-10 text-gray-500 text-sm">
-        For general inquiries, reach out to <a href="mailto:info@bingenius.com" class="text-green-600 hover:underline">info@bingenius.com</a>
-      </p>
-    </div>
-
-      <!-- Carousel Script --><script>
-          document.addEventListener('DOMContentLoaded', () => {
-            const carousel = document.getElementById('team-carousel');
-            const totalSlides = carousel.children.length;
-            let currentIndex = 0;
-
-            // Carousel Logic
-            document.getElementById('next').addEventListener('click', () => {
-              currentIndex = (currentIndex + 1) % totalSlides;
-              carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-            });
-
-            document.getElementById('prev').addEventListener('click', () => {
-              currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-              carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-            });
-
-            // SMOOTH SCROLLING Logic (FIX)
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    const href = this.getAttribute('href');
-                    // Only intercept hash links that are not just '#'
-                    if (href && href.length > 1) {
-                        e.preventDefault();
-                        const targetElement = document.querySelector(href);
-                        if (targetElement) {
-                            targetElement.scrollIntoView({
-                                behavior: 'smooth'
-                            });
+                // SMOOTH SCROLLING Logic (FIX)
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        const href = this.getAttribute('href');
+                        // Only intercept hash links that are not just '#'
+                        if (href && href.length > 1) {
+                            e.preventDefault();
+                            const targetElement = document.querySelector(href);
+                            if (targetElement) {
+                                targetElement.scrollIntoView({
+                                    behavior: 'smooth'
+                                });
+                            }
                         }
-                    }
+                    });
                 });
             });
-        });
-      </script>
+        </script>
     </section>
 
-    
-
-    <!-- Footer --><footer class="bg-gray-900 text-white py-8">
+    <footer class="bg-gray-900 text-white py-8">
         <div class="container mx-auto px-6 text-center text-sm">
             &copy; 2025 Bin Genius. AI-Powered Waste Management.
         </div>
@@ -306,4 +324,3 @@
 
 </body>
 </html>
-
